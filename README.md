@@ -96,7 +96,7 @@ A stateful, AI-driven micro-frontend playground where authenticated users can it
    NODE_ENV=development
 
    # MongoDB Configuration
-   MONGODB_URI=mongodb+srv://pawanpc044:hOh9As0WL6a3zSBf@cluster0.arm6xxk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+   MONGODB_URI
 
    # Redis Configuration
    REDIS_URL=redis://localhost:6379
@@ -106,7 +106,7 @@ A stateful, AI-driven micro-frontend playground where authenticated users can it
    JWT_EXPIRES_IN=7d
 
    # Gemini AI Configuration
-   GEMINI_API_KEY=AIzaSyDEVXEsMPZXatbd0bJRuAayKbnJrEBiLOA
+   GEMINI_API_KEY=
 
    # CORS Configuration
    FRONTEND_URL=http://localhost:3000
