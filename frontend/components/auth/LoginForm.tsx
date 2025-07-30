@@ -66,7 +66,7 @@ export const LoginForm = () => {
         label="Email"
         type="email"
         placeholder="Enter your email"
-        value={formData.email}
+        value={formData.email ?? ''}
         onChange={(e) => handleInputChange('email', e.target.value)}
         error={validationErrors.email || error}
         leftIcon={<Mail className="h-4 w-4" />}
